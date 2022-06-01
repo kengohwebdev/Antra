@@ -12,51 +12,119 @@
     
     Problem 1. Website Header
     <br>
+<nav>
 
-    <div id = "nav">
-        <ul>
-            <li><img src = "https://logo.clearbit.com/antra.com" alt="Business Logo" width ="100" height ="100"/></li>
-            <li><a href="" >NEWS</a></li>
-            <li><a href="" >ABOUT THE UNIVERSITY</a></li>
-            <li><a href="" >TRAINING COURSES</a></li>
-            <li><a href="" >FOR COMPANIES</a></li>
-            <li><a href="" >FORUM</a></li>
-            <li><a href="" >CONTACTS</a></li>
-        </ul>
-    </div>
 
-    <form action =""> 
-        <p> Search: </p>
-        <input type = "search" name = "search" 
-        placeholder = "Search..." />
-        <input type = "submit" value = "Search" />
-    </form>
+    
+<table cellpadding = "5" cellspacing = "5" >
+ <ul>
+    <tr>
+        <td rowspan ="2">
+         <li><img src = "https://logo.clearbit.com/antra.com" 
+                   alt="Business Logo" width = "116" height = "117" class = "logo"/></li>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <form action =""> 
+            <select name = "devices">
+                <option value ="user" > USER</option>
+                <option value = "info" >INFO</option>
+                <option value = "course" >COURSE</option>
+                <option value = "group" >GROUP</option>
+            </select>
+                
+            </form>
+        </td>
+        <td colspan = "3"> 
+            <form action =""> 
+            
+            <input type = "search" name = "search" 
+            placeholder = "Search..." />
+            <input type = "submit" value = "Search" />
+        </form>
+    </td>
+ 
 
+    </tr>
+    <tr>
+                <td><li><a href="" >NEWS</a></li></td>
+                <td><li><select name = "devices">
+                    <option value ="ABOUT THE UNIVERSITY" > ABOUT THE UNIVERSITY</option>
+                    <option value = "info" >INFO</option>
+                    <option value = "course" >COURSE</option>
+                    <option value = "group" >GROUP</option>
+                </select></li></td>
+                <td><li><select name = "devices">
+                    <option value ="TRAINING COURSES" > TRAINING COURSES</option>
+                    <option value = "info" >INFO</option>
+                    <option value = "course" >COURSE</option>
+                    <option value = "group" >GROUP</option>
+                </select></li></td>
+                <td><li><a href="" >FOR COMPANIES</a></li></td>
+                <td><li><a href="" >FORUM</a></li></td>
+                <td><li><a href="" >CONTACTS</a></li></td>
+            </tr>
+            </ul>
+        </table>
+</nav>
+    
 
     <br>
     Problem 2 Website Footer
     <br>
-<div id ="content">
-    <div class = "article column1">
-        <p>Column One</p>
-    </div>
 
-    <div class = "article column2">
-        <p>Column Two</p>
-    </div>
+<div id = "content">
 
-    <div class = "article column3">
-        <p>Column Three</p>
-    </div>
+    <div class = "column1"> <p>Corporate Office</p> </div>
 
-    <div class = "article column4">
-        <p>Column Four</p>
-    </div>
+    <div class = "column2">   
+    
+    <table width = "500px" cellpadding = "5" cellspacing = "5" >
+    
+    <tr width = "50px">
+        <td width = "50px"><p>Services</p></td>
+        <td width = "50px"><p>Resources</p></td>    
+    </tr>
+
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> Technology Services </a></td>
+        <td width = "50px"><a href =""> Case Studies </a></td>
+    </tr>
+
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> Business Advisory Services </a></td>
+        <td width = "50px"><a href =""> White Papers </a></td>
+    </tr>
+
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> Professional Services </a></td>
+        <td width = "50px"><a href =""> Technology Resources </a></td>
+    </tr width = "50px" >
+
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> Blog </a></td>
+        <td width = "50px"><a href =""> Top Technology Trends 2017 </a></td>
+    </tr>
+
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> About Us </a></td>
+        <td width = "50px"><a href =""> Agile Transformations </a></td>
+    </tr>
+ 
+    <tr width = "50px" >
+        <td width = "50px"><a href =""> Contact Us </a></td>
+        <td width = "50px"><a href =""> Web and Mobile Application Development </a></td>
+    </tr>
+
+    </table>
+</div>    
+
+    <div class = "column3" with = width = "50px"><p class = "clear">Locator</p></div>
 </div>
-    <br>
-    <div id = "footer">
-        <p>&copy; 2017 Antra Inc. All Rights Reserved</p>
-    </div>
+<br>
+    <div id = "footer"><p>&copy; 2017 Antra Inc. All Rights Reserved</p></div>
 
 
 </body>
