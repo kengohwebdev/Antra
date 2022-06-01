@@ -1,32 +1,89 @@
 body {
     width : 90% ;   
     margin : 0 auto;
+    overflow: auto;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
 }
 
-#content {overflow: auto;}
+#content, .nav {
+
+display : flex;
+flex-direction : row;
+justify-content: space evenly;
+flex-wrap: wrap;
+justify-content: left;
+
+
+}
 
 #nav, #footer {
     margin : 1%;
+    
 }
 
 
-.column1, .column2, .column3  {
+/* .column1, .column2, .column3  {
 
-    background-color: #efefef;
+    background-color :beige;
     
     float: left;
     width: 31.3%;
     margin: 1%;
+    flex : 1 1 100px;
 } 
 
-.column3 {margin-right : 0%;}
+.column3 {margin-right : 0%;} */
+
+
+
+.column1 {
+
+    color :green;
+    
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+    flex : 1 1 100px;
+  
+   
+} 
+
+.column2  {
+
+    background-color :beige;
+    
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+    flex : 1 1 100px;
+    
+    z-index : 10;
+  
+} 
+
+.column3  {
+
+    color :red;
+    
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+    flex : 1 1 100px;
+   
+
+   
+   
+} 
+
 
 li {
     display : inline;
     padding : 0.5em;
+    background-color :aquamarine;
+    
 }
 
 #nav, #footer {
-    background-color : #efefef;
+    background-color :blueviolet;
     padding : 0.5em 0;
 }
