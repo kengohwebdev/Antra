@@ -1,0 +1,61 @@
+
+#header,section,footer,aside,nav,article,figcaption{
+    display: block;
+}
+
+body {
+    width : 90%;
+    margin : 0 auto;
+
+    background-color: silver;
+          color : blue;
+          font-family : Monospace;
+}
+
+.injected-text{
+    margin-bottom : -25px;
+    text-align:center;
+}
+
+
+.container{
+    font-family: Lobster, Monospace;
+}
+#header{
+    height :160px;
+    
+}
+
+#nav{
+    clear:both;
+    color: #ffffff;
+    background-color : #aeaca8;
+    height: 30px;
+}
+
+#nav ul {
+    margin: 0px;
+    padding : 5px 0px 5px 30px;
+}
+
+#nav li{
+    display:inline;
+    margin-right: 5px;
+}
+
+#nav li a{
+    color: black;
+}
+
+#nav li a:hover{
+    color: brown;
+}
+
+#nav li a.current{
+    color: gold;
+}
+
+
+.gold-text{
+    color:gold;
+}
