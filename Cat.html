@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="Cat.js" type="text/JavaScript"></script>
+    
+<link href="http://fonts.googleapis.com/css?family=Lobster"
+ rel="stylesheet" type="text/css">   
+ 
+ <!-- bootstrap -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  
+  <style>
+    
+      body{
+          background-color: black;
+          color : blue;
+          font-family : Monospace;
+      }
+     
+        .smaller-image {
+            width: 100px;
+
+        }
+        .silver-background{
+            background-color: skyblue;
+        }
+      
+
+        .thick-green-border{
+            border-width : 10px;
+            border-style : solid;
+            border-color : green;
+            border-radius : 50%;
+            
+        }
+
+        h1{
+            font-family: Lobster, Monospace;
+        }
+        
+        #cat-photo-form{
+            background-color:white;
+        }
+
+
+        .injected-text{
+            margin-bottom : -25px;
+            text-align:center;
+        }
+
+        .box{
+            border-width : 5px;
+            border-style: solid;
+            background-color : black;
+            text-align : center;
+
+        }
+        .yellow-box{
+            background-color : yellow;
+           
+            padding-top : 20px;
+            padding-right : 40px;
+            padding-bottom : 20px;
+            padding-left : 40px;
+        }
+
+        .red-box{
+            background-color : red;
+            margin : 20px 40px 20px 40px;
+            
+        }
+
+        .green-box{
+            background-color : green;
+            margin : 40px 20px 40px 20px;
+            
+         
+        }
+
+        .pink-text{
+            color:pink !important;
+        }
+        .gold-text{
+            color:gold;
+        }
+       
+        #brown-text{
+            color: brown;
+        }
+
+      
+
+       
+     
+       
+    </style>
+
+
+    <div class ="container-fluid">
+        <div class=" row">
+            <div class=" col-xs-8">
+                <h1 class="text-primary text-center">Cat Photo App</h1>
+                </div>
+                <div class=" col-xs-4">
+                    <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="Soft Kitty"></a>
+                    </div>
+     
+
+<!-- makes full width screen -->
+
+     <h3 style="color :white" id="brown-text" class= "gold-text pink-text"  > Hello World! </h3>
+
+    <!-- <div class ="box yellow-box">
+        <h5 class ="box red-box">padding</h5>
+        <h5 class ="box green-box">padding</h5>
+
+
+    </div> -->
+
+ 
+        
+  
+
+  
+
+  
+    
+   
+        <p class ="text-primary">Soft kitties</p>
+    <P>Warm kitties</P>
+</div>
+    
+
+    
+   
+    <img src="https://bit.ly/fcc-running-cats" class ="img-responsive" alt="Three kitties">
+    <div class="row">
+        <div class ="col-xs-4">
+            <!-- adding thumbs up -->
+            <button class ="btn btn-block btn-primary" >Like <i class ="fa fa-thumbs-up"></i></button>
+        </div>
+        <div class ="col-xs-4">
+            <button class ="btn btn-block btn-info">Info <i class ="fa fa-info-circle"></i></button>
+        </div>
+        <div class ="col-xs-4">
+            <button class ="btn btn-block btn-danger">Delete  <i class ="fa fa-trash"></i></button>
+        </div>
+    
+    </div>
+
+<p>Things cat <span class = "text-danger">love</span>:</p>
+    <ul>
+        <li>
+            cat 1
+        </li>
+        <li>
+            cat 2
+        </li>
+        <li>
+            cat 3
+        </li>
+    </ul>
+    <p>Things cat hate</p>
+    <ol>
+        <li>cat 1</li>
+        <li>cat 2</li>
+        <li>cat 3</li>
+    </ol>
+
+    
+
+   
+    <form action="/submit-cat-photo" id="cat-photo-form" >
+        <div class="row">
+
+            <div class="col-xs-6">
+        <label><input type ="radio" name = "indoo-outdoor" checked>indoor</label>
+    </div>
+
+        <div class="col-xs-6">
+        <label><input type ="radio" name = "outdoor-outdoor">outdoor</label>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-xs-4">
+        <label><input type ="checkbox" name = "personality">loving</label>
+    </div>
+
+    <div class="col-xs-4">
+        <label><input type ="checkbox" name = "personality" checked>soft</label>
+    </div>
+
+    <div class="col-xs-4">
+        <label><input type ="checkbox" name = "personality">warm</label>
+   </div>
+</div>
+
+
+    <div class="row">
+
+        <div class ="col-xs-7">
+        <input class="form-control" type ="text" placeholder = "cat photo url" required>
+    </div>
+        <div class ="col-xs-5">
+        <button class="btn btn-primary" type ="submit"> Submit  <i class ="fa fa-paper-plane"></i></button>
+    </div>
+    </form>
+
+</div>
+</div>
+</body>
+</html>
